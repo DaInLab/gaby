@@ -1,2 +1,2 @@
 # gaby
-Resolução dos exercícios em R.
+Repositório para resolução de exercícios da disciplina Ciência de Dados 2022.
