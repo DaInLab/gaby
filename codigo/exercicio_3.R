@@ -12,7 +12,7 @@ tabela.ex3 <- c(df.ex3)
 tabela.ex3
 
 # Mediana - Numero de filhos
-ex3.mediana <- median(df.ex3$Filhos)
+ex3.mediana <- median(df.ex3$Filhos, na.rm = TRUE)
 ex3.mediana
 
 # Moda - NUmero de filhos
@@ -20,3 +20,4 @@ tabfreq.ex3 <- table(tabela.ex3)
 tabfreq.ex3
 
 tabfreq.ex3[tabfreq.ex3 == max(tabfreq.ex3)]
+
